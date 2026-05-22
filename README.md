@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Personal Developer Portfolio
+A minimalist, high-performance personal portfolio website built to showcase my projects, skills, and journey as a frontend developer. Inspired by modern, clean industry designs.
 
-## Getting Started
+🚀 Live Demo
+You can visit the live website here: https://my-portfolio-ferda.vercel.app
 
-First, run the development server:
+🛠️ Tech Stack & Architecture
+Framework: Next.js (App Router)
 
-```bash
+Styling: Tailwind CSS (Modern, utility-first styling)
+
+Language: TypeScript
+
+Deployment: Vercel
+
+📁 Key Features
+Minimalist & Clean UI: Designed with a focus on typography, whitespace, and readability.
+
+Card-Based Project Showcase: Highlights key projects (AI Resume Builder, Team SaaS) with descriptions, tech badges, and direct links to code and live demos.
+
+Fully Responsive: Completely optimized for mobile, tablet, and desktop viewports.
+
+SEO & Performance Optimized: Leverages Next.js server-side rendering and font optimization for instant loading speeds.
+
+💻 Getting Started Locally
+To run this portfolio on your local machine, follow these steps:
+
+Clone the repository:
+git clone https://github.com/ferda-zeynep/my-portfolio.git
+
+Navigate into the project directory:
+cd my-portfolio
+
+Install the dependencies:
+npm install
+
+Run the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to view the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✉️ Contact
+GitHub: https://github.com/ferda-zeynep
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+LinkedIn: https://www.linkedin.com/in/ferda-zeynep-%C3%A7apa-643165256/
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Email: ferdacp@gmail.com

@@ -2,7 +2,7 @@ Personal Developer Portfolio
 A minimalist, high-performance personal portfolio website built to showcase my projects, skills, and journey as a frontend developer. Inspired by modern, clean industry designs.
 
 🚀 Live Demo
-You can visit the live website here: https://my-portfolio-ferda.vercel.app
+You can visit the live website here: https://my-portfolio-eosin-beta-29.vercel.app/
 
 🛠️ Tech Stack & Architecture
 Framework: Next.js (App Router)

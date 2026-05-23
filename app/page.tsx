@@ -18,6 +18,14 @@ export default function Home() {
       liveLink: "https://team-management-app-eight.vercel.app/",
       githubLink: "https://github.com/ferda-zeynep/team-management-app",
     },
+    {
+      title: "Vertex Agency",
+      description:
+        "A pixel-perfect, highly responsive digital agency landing page implementation built strictly from a Figma design blueprint, focusing on advanced asset management, seamless fluid grids, and tactile micro-animations.",
+      tech: ["React", "Tailwind CSS", "JavaScript", "Vite"],
+      liveLink: "https://nexcent-ten-lac.vercel.app",
+      githubLink: "https://github.com/ferda-zeynep/vertex-agency",
+    },
   ];
 
   return (

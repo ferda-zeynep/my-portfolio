@@ -19,6 +19,14 @@ export default function Home() {
       githubLink: "https://github.com/ferda-zeynep/team-management-app",
     },
     {
+      title: "GenContent SaaS",
+      description:
+        "A next-generation AI Content Generator SaaS MVP featuring parametric copywriting for multi-platform social media posts. Integrated with Clerk authentication, Framer Motion animations, and full CRUD content tracking backed by a secure PostgreSQL database.",
+      tech: ["Next.js", "Tailwind CSS", "Prisma", "Gemini API", "Clerk"],
+      liveLink: "https://gencontent-sand.vercel.app",
+      githubLink: "https://github.com/ferda-zeynep/gencontent",
+    },
+    {
       title: "Vertex Agency",
       description:
         "A pixel-perfect, highly responsive digital agency landing page implementation built strictly from a Figma design blueprint, focusing on advanced asset management, seamless fluid grids, and tactile micro-animations.",

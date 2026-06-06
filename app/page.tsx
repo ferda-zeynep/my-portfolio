@@ -3,12 +3,28 @@ import React from "react";
 export default function Home() {
   const projects = [
     {
-      title: "AI Resume Builder",
+      title: "Watchtower",
       description:
-        "An AI-powered web application that enables users to create professional resumes in seconds. Built with Next.js, Tailwind CSS, and Gemini API.",
-      tech: ["Next.js", "Tailwind CSS", "Prisma", "Gemini API"],
-      liveLink: "https://ai-resume-builder-bay-mu.vercel.app/",
-      githubLink: "https://github.com/ferda-zeynep/ai-resume-builder",
+        "A full-stack observability platform with a custom telemetry SDK, real-time event streaming, and live analytics dashboard for monitoring frontend application errors and system events.",
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "Express",
+        "Socket.io",
+        "Prisma",
+        "PostgreSQL",
+        "Turborepo",
+      ],
+      liveLink: "https://watchtower-jt43.vercel.app/",
+      githubLink: "https://github.com/ferda-zeynep/watchtower",
+    },
+    {
+      title: "GenContent SaaS",
+      description:
+        "A next-generation AI Content Generator SaaS MVP featuring parametric copywriting for multi-platform social media posts. Integrated with Clerk authentication, Framer Motion animations, and full CRUD content tracking backed by a secure PostgreSQL database.",
+      tech: ["Next.js", "Tailwind CSS", "Prisma", "Gemini API", "Clerk"],
+      liveLink: "https://gencontent-sand.vercel.app",
+      githubLink: "https://github.com/ferda-zeynep/gencontent",
     },
     {
       title: "Team SaaS",
@@ -19,12 +35,12 @@ export default function Home() {
       githubLink: "https://github.com/ferda-zeynep/team-management-app",
     },
     {
-      title: "GenContent SaaS",
+      title: "AI Resume Builder",
       description:
-        "A next-generation AI Content Generator SaaS MVP featuring parametric copywriting for multi-platform social media posts. Integrated with Clerk authentication, Framer Motion animations, and full CRUD content tracking backed by a secure PostgreSQL database.",
-      tech: ["Next.js", "Tailwind CSS", "Prisma", "Gemini API", "Clerk"],
-      liveLink: "https://gencontent-sand.vercel.app",
-      githubLink: "https://github.com/ferda-zeynep/gencontent",
+        "An AI-powered web application that enables users to create professional resumes in seconds. Built with Next.js, Tailwind CSS, and Gemini API.",
+      tech: ["Next.js", "Tailwind CSS", "Prisma", "Gemini API"],
+      liveLink: "https://ai-resume-builder-bay-mu.vercel.app/",
+      githubLink: "https://github.com/ferda-zeynep/ai-resume-builder",
     },
     {
       title: "Vertex Agency",

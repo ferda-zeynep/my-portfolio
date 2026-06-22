@@ -3,6 +3,21 @@ import React from "react";
 export default function Home() {
   const projects = [
     {
+      title: "CommercePilot AI",
+      description:
+        "An AI-powered presales enablement platform that allows Solution Consultants to instantly deploy context-aware e-commerce demo environments, featuring live headless catalog pipelines and cognitive product discovery.",
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "OpenAI API",
+        "Shopify Storefront API",
+        "Tailwind CSS",
+        "Prisma",
+      ],
+      liveLink: "https://commerce-pilot-ai.vercel.app/",
+      githubLink: "https://github.com/ferda-zeynep/commerce-pilot-ai",
+    },
+    {
       title: "Watchtower",
       description:
         "A full-stack observability platform with a custom telemetry SDK, real-time event streaming, and live analytics dashboard for monitoring frontend application errors and system events.",

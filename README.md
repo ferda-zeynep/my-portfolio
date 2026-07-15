@@ -1,47 +1,112 @@
-Personal Developer Portfolio
-A minimalist, high-performance personal portfolio website built to showcase my projects, skills, and journey as a frontend developer. Inspired by modern, clean industry designs.
+# Personal Developer Portfolio
 
-🚀 Live Demo
-You can visit the live website here: https://my-portfolio-eosin-beta-29.vercel.app/
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4-38BDF8)
+![Vercel](https://img.shields.io/badge/Deployment-Vercel-black)
 
-🛠️ Tech Stack & Architecture
-Framework: Next.js (App Router)
+A modern, responsive portfolio website built to showcase my projects, technical skills, and software engineering journey. Designed with a clean, minimalist interface while focusing on performance, accessibility, and user experience.
 
-Styling: Tailwind CSS (Modern, utility-first styling)
+---
 
-Language: TypeScript
+## 🚀 Live Demo
 
-Deployment: Vercel
+**Production URL**
 
-📁 Key Features
-Minimalist & Clean UI: Designed with a focus on typography, whitespace, and readability.
+https://my-portfolio-eosin-beta-29.vercel.app/
 
-Card-Based Project Showcase: Highlights key projects (AI Resume Builder, Team SaaS) with descriptions, tech badges, and direct links to code and live demos.
+---
 
-Fully Responsive: Completely optimized for mobile, tablet, and desktop viewports.
+## 🛠️ Tech Stack
 
-SEO & Performance Optimized: Leverages Next.js server-side rendering and font optimization for instant loading speeds.
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
 
-💻 Getting Started Locally
-To run this portfolio on your local machine, follow these steps:
+---
+
+## ✨ Features
+
+- Minimalist and responsive portfolio design
+- Featured project showcase with live demos and GitHub repositories
+- Mobile-first responsive layout
+- Clean typography and accessible UI
+- Performance optimized with Next.js App Router
+- SEO-friendly metadata configuration
+
+---
+
+## 📂 Featured Projects
+
+The portfolio currently showcases:
+
+- CommercePilot AI
+- RoomMatch Prague
+- Watchtower
+- GenContent SaaS
+- Team SaaS
+- Vertex Agency
+
+Each project includes:
+
+- Project overview
+- Technology stack
+- Live demo
+- GitHub repository
+
+---
+
+## 💻 Getting Started
 
 Clone the repository:
+
+```bash
 git clone https://github.com/ferda-zeynep/my-portfolio.git
+```
 
-Navigate into the project directory:
+Navigate to the project:
+
+```bash
 cd my-portfolio
+```
 
-Install the dependencies:
+Install dependencies:
+
+```bash
 npm install
+```
 
 Run the development server:
+
+```bash
 npm run dev
+```
 
-Open http://localhost:3000 in your browser to view the project.
+Open:
 
-✉️ Contact
-GitHub: https://github.com/ferda-zeynep
+```text
+http://localhost:3000
+```
 
-LinkedIn: https://www.linkedin.com/in/ferda-zeynep-%C3%A7apa-643165256/
+---
 
-Email: ferdacp@gmail.com
+## 📬 Contact
+
+**GitHub**
+
+https://github.com/ferda-zeynep
+
+**LinkedIn**
+
+https://www.linkedin.com/in/ferda-zeynep-%C3%A7apa-643165256/
+
+**Email**
+
+ferdacp@gmail.com
+
+---
+
+## 📄 License
+
+This project is intended for portfolio purposes. Feel free to explore the code and use it as inspiration for your own projects.

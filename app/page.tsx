@@ -94,8 +94,10 @@ export default function Home() {
           Software Engineer | Frontend & Full-Stack
         </p>
         <p className="mt-4 text-base text-gray-500 max-w-xl leading-relaxed">
-          I build modern, fast, and user-centered web applications. I focus on
-          UI/UX details and love turning Figma designs into pixel-perfect code.
+          I build modern, fast, and user-centered web applications with a focus
+          on clean UI, scalable full-stack architecture, and great user
+          experiences. I enjoy turning ideas into production-ready products
+          using modern web technologies.
         </p>
 
         {/* TECH STACK BADGES */}
@@ -157,11 +159,14 @@ export default function Home() {
                     {project.description}
                   </p>
 
-                  {/* Project Tech Stack */}
-                  <div className="mt-4 flex flex-wrap gap-2 text-[11px] text-gray-400">
-                    {project.tech.map((t) => (
-                      <span key={t}>#{t}</span>
-                    ))}
+                  {/* Tech Stack Section */}
+                  <div className="mt-4">
+                    <span className="text-xs font-semibold text-gray-800 block mb-1">
+                      Tech Stack
+                    </span>
+                    <div className="text-[11px] text-gray-500 font-medium">
+                      {project.tech.join(" • ")}
+                    </div>
                   </div>
                 </div>
 
@@ -207,9 +212,21 @@ export default function Home() {
           <h2 className="text-base font-semibold text-black mb-4">
             Skills & Tools
           </h2>
-          <p className="text-sm text-gray-600 leading-relaxed">
-            TypeScript, JavaScript (ES6+), React, Next.js, Node.js, PostgreSQL,
-            Prisma, Tailwind CSS, Git, Clerk, REST APIs, Figma
+          <p className="text-sm text-gray-600 leading-relaxed whitespace-pre-line">
+            TypeScript{"\n"}
+            JavaScript (ES6+){"\n"}
+            React{"\n"}
+            Next.js{"\n"}
+            Node.js{"\n"}
+            PostgreSQL{"\n"}
+            Prisma{"\n"}
+            Tailwind CSS{"\n"}
+            Git{"\n"}
+            Clerk{"\n"}
+            REST APIs{"\n"}
+            OpenAI API{"\n"}
+            Gemini API{"\n"}
+            Figma
           </p>
         </div>
       </section>

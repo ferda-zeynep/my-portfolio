@@ -5,7 +5,7 @@ export default function Home() {
     {
       title: "CommercePilot AI",
       description:
-        "An AI-powered presales enablement platform that allows Solution Consultants to instantly deploy context-aware e-commerce demo environments, featuring live headless catalog pipelines and cognitive product discovery.",
+        "An AI-powered presales platform that enables Solution Consultants to generate context-aware e-commerce demo environments with intelligent product discovery and Shopify Storefront integration.",
       tech: [
         "Next.js",
         "TypeScript",
@@ -20,7 +20,7 @@ export default function Home() {
     {
       title: "Watchtower",
       description:
-        "A full-stack observability platform with a custom telemetry SDK, real-time event streaming, and live analytics dashboard for monitoring frontend application errors and system events.",
+        "A full-stack observability platform featuring a custom telemetry SDK, real-time event streaming, and a live analytics dashboard for monitoring frontend application health.",
       tech: [
         "Next.js",
         "TypeScript",
@@ -34,39 +34,54 @@ export default function Home() {
       githubLink: "https://github.com/ferda-zeynep/watchtower",
     },
     {
+      title: "RoomMatch Prague",
+      description:
+        "A full-stack flatmate matching platform for Erasmus students and expats, featuring AI-assisted listing generation, advanced rental discovery and filtering, secure Clerk authentication, favorites management, and full CRUD operations powered by PostgreSQL.",
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Prisma",
+        "PostgreSQL",
+        "Clerk",
+        "Gemini API",
+      ],
+      liveLink: "https://roommatch-prague.vercel.app/",
+      githubLink: "https://github.com/ferda-zeynep/roommatch-prague",
+    },
+    {
       title: "GenContent SaaS",
       description:
-        "A next-generation AI Content Generator SaaS MVP featuring parametric copywriting for multi-platform social media posts. Integrated with Clerk authentication, Framer Motion animations, and full CRUD content tracking backed by a secure PostgreSQL database.",
+        "An AI-powered SaaS platform for generating social media content with secure authentication, AI-assisted copywriting, content history, and full CRUD management backed by PostgreSQL.",
       tech: ["Next.js", "Tailwind CSS", "Prisma", "Gemini API", "Clerk"],
       liveLink: "https://gencontent-sand.vercel.app",
       githubLink: "https://github.com/ferda-zeynep/gencontent",
     },
     {
-      title: "Team SaaS",
-      description:
-        "A modern management dashboard designed for teams to streamline workflows and project tracking with optimized data flow.",
-      tech: ["React", "Tailwind CSS", "Context API", "Node.js"],
-      liveLink: "https://team-management-app-eight.vercel.app/",
-      githubLink: "https://github.com/ferda-zeynep/team-management-app",
-    },
-    {
       title: "AI Resume Builder",
       description:
-        "An AI-powered web application that enables users to create professional resumes in seconds. Built with Next.js, Tailwind CSS, and Gemini API.",
+        "An AI-powered resume builder that helps users create professional resumes with AI-generated content and a streamlined editing workflow.",
       tech: ["Next.js", "Tailwind CSS", "Prisma", "Gemini API"],
       liveLink: "https://ai-resume-builder-bay-mu.vercel.app/",
       githubLink: "https://github.com/ferda-zeynep/ai-resume-builder",
     },
     {
+      title: "Team SaaS",
+      description:
+        "A collaborative team management dashboard featuring project tracking, task organization, and responsive data-driven interfaces.",
+      tech: ["React", "Tailwind CSS", "Context API", "Node.js"],
+      liveLink: "https://team-management-app-eight.vercel.app/",
+      githubLink: "https://github.com/ferda-zeynep/team-management-app",
+    },
+    {
       title: "Vertex Agency",
       description:
-        "A pixel-perfect, highly responsive digital agency landing page implementation built strictly from a Figma design blueprint, focusing on advanced asset management, seamless fluid grids, and tactile micro-animations.",
+        "A responsive agency landing page built from a Figma design, focusing on pixel-perfect implementation, reusable components, and modern frontend practices.",
       tech: ["React", "Tailwind CSS", "JavaScript", "Vite"],
       liveLink: "https://nexcent-ten-lac.vercel.app",
       githubLink: "https://github.com/ferda-zeynep/vertex-agency",
     },
   ];
-
   return (
     <div className="max-w-3xl mx-auto px-6 py-20 selection:bg-gray-200 selection:text-black">
       {/* HERO SECTION  */}

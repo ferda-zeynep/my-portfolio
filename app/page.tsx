@@ -107,8 +107,9 @@ export default function Home() {
             "Next.js",
             "TypeScript",
             "Node.js",
-            "Tailwind",
+            "PostgreSQL",
             "Prisma",
+            "Tailwind CSS",
           ].map((tech) => (
             <span
               key={tech}

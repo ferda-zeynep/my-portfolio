@@ -197,7 +197,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT & SKILLS */}
-      <section className="mb-20 grid grid-cols-1 md:grid-cols-2 gap-8 border-t border-gray-100 pt-12">
+      <section className="mb-20 grid grid-cols-1 md:grid-cols-2 gap-12 border-t border-gray-100 pt-12">
         <div>
           <h2 className="text-base font-semibold text-black mb-4">About Me</h2>
           <p className="text-sm text-gray-600 leading-relaxed">
@@ -213,22 +213,31 @@ export default function Home() {
           <h2 className="text-base font-semibold text-black mb-4">
             Skills & Tools
           </h2>
-          <p className="text-sm text-gray-600 leading-relaxed whitespace-pre-line">
-            TypeScript{"\n"}
-            JavaScript (ES6+){"\n"}
-            React{"\n"}
-            Next.js{"\n"}
-            Node.js{"\n"}
-            PostgreSQL{"\n"}
-            Prisma{"\n"}
-            Tailwind CSS{"\n"}
-            Git{"\n"}
-            Clerk{"\n"}
-            REST APIs{"\n"}
-            OpenAI API{"\n"}
-            Gemini API{"\n"}
-            Figma
-          </p>
+          <div className="flex flex-wrap gap-2">
+            {[
+              "TypeScript",
+              "JavaScript (ES6+)",
+              "React",
+              "Next.js",
+              "Node.js",
+              "PostgreSQL",
+              "Prisma",
+              "Tailwind CSS",
+              "Git",
+              "Clerk",
+              "REST APIs",
+              "OpenAI API",
+              "Gemini API",
+              "Figma",
+            ].map((skill) => (
+              <span
+                key={skill}
+                className="px-2.5 py-1 bg-gray-50 text-gray-700 rounded-md border border-gray-100 text-xs font-medium"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 

@@ -5,6 +5,23 @@ import React from "react";
 export default function Home() {
   const projects = [
     {
+      title: "Watchtower",
+      description:
+        "A full-stack observability platform featuring a custom telemetry SDK, real-time event streaming, and a live analytics dashboard for monitoring frontend errors, performance, and application health.",
+      tech: [
+        "Next.js",
+        "TypeScript",
+        "Express",
+        "Socket.io",
+        "Prisma",
+        "PostgreSQL",
+        "Turborepo",
+      ],
+      liveLink: "https://watchtower-jt43.vercel.app/",
+      githubLink: "https://github.com/ferda-zeynep/watchtower",
+      image: "/watchtower.png",
+    },
+    {
       title: "CommercePilot AI",
       description:
         "An AI-powered presales platform that enables Solution Consultants to instantly generate context-aware e-commerce demo environments with intelligent product discovery and Shopify Storefront integration.",
@@ -36,23 +53,6 @@ export default function Home() {
       liveLink: "https://roommatch-prague.vercel.app/",
       githubLink: "https://github.com/ferda-zeynep/roommatch-prague",
       image: "/roommatch.png",
-    },
-    {
-      title: "Watchtower",
-      description:
-        "A full-stack observability platform featuring a custom telemetry SDK, real-time event streaming, and a live analytics dashboard for monitoring frontend errors, performance, and application health.",
-      tech: [
-        "Next.js",
-        "TypeScript",
-        "Express",
-        "Socket.io",
-        "Prisma",
-        "PostgreSQL",
-        "Turborepo",
-      ],
-      liveLink: "https://watchtower-jt43.vercel.app/",
-      githubLink: "https://github.com/ferda-zeynep/watchtower",
-      image: "/watchtower.png",
     },
     {
       title: "GenContent SaaS",
@@ -93,7 +93,7 @@ export default function Home() {
         <p className="mt-4 text-xl text-gray-600 font-medium">
           Software Engineer | Frontend & Full-Stack
         </p>
-        <p className="mt-4 text-base text-gray-500 max-w-xl leading-relaxed">
+        <p className="mt-4 text-base text-gray-500 leading-relaxed">
           I build modern, fast, and user-centered web applications with a focus
           on clean UI, scalable full-stack architecture, and great user
           experiences. I enjoy turning ideas into production-ready products
@@ -223,11 +223,14 @@ export default function Home() {
               "PostgreSQL",
               "Prisma",
               "Tailwind CSS",
+              "Socket.io",
               "Git",
               "Clerk",
               "REST APIs",
               "OpenAI API",
               "Gemini API",
+              "Cursor",
+              "Claude Code",
               "Figma",
             ].map((skill) => (
               <span

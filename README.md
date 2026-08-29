@@ -13,7 +13,7 @@ A modern, responsive portfolio website built to showcase my projects, technical 
 
 **Production URL**
 
-https://my-portfolio-eosin-beta-29.vercel.app/
+https://ferda-zeynep-capa.vercel.app/
 
 ---
 
